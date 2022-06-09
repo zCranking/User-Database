@@ -12,7 +12,7 @@ label_email = Label(root, foreground="#FF7700", bg="#004777", font=("Comic Sans 
 label_email.place(relx=0.3,rely=0.3, anchor=CENTER)
 entry_email = Entry(root,  bg="#CC0000", foreground="#FF7700", font=("Comic Sans MS", "12", "normal"),)
 entry_email.place(relx=0.6,rely=0.3, anchor=CENTER)
-label = Label(root, foreground="#FF7700", bg="#004777", font=("Comic Sans MS", "15", "bold"))
+label = Label(root, foreground="#FF7700", bg="#004777", font=("Comic Sans MS", "15", "bold"), wraplength=400)
 
 dictionary = {}
 class Users: 
